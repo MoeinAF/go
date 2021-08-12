@@ -20,5 +20,7 @@ class Singleton
         }
 
         return self::$instance;
+
+        echo "Hi";
     }
 }

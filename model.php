@@ -17,4 +17,4 @@ $stmt->bindParam(':lastname', $lastname);
 $stmt->bindParam(':email', $email);
 
 $firstname = $_POST['firstname'];
-$lastname = 
+$lastname = $_POST['lastname'];
